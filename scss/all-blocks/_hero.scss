@@ -1,0 +1,55 @@
+.hero {
+
+
+    &__container {
+
+    background-image: url(../../images/hero__backimage.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    border-radius: 10px;
+
+    }
+    &__heading {
+        margin: 0;
+        width: 493px;
+        font-family: 'Fraunces';
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+    }
+    &__desc {
+        margin: 0;
+        margin-bottom:56px ;
+        width:445px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+    &__btn {
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        padding: 15px 30px;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        background: #0E8784;
+        border-radius: 6px;
+        transition: 0.5s;
+        margin-bottom:100px ;
+    }
+    &__btn:hover{
+        background: #66D2CF;
+
+    }
+}
