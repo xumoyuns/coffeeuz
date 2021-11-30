@@ -14,14 +14,12 @@
 
 <body>
     <!-- header section -->
-    <header class="site-header header--open">
+    <header class="site-header">
         <div class="container">
             <div class="site-header__container">
-
-
-
                 <a class="site-header__logo" href="index.html">
-                    <img class="site-header__img" src="./images/website_logo.svg" alt="site logo" width="236" height="26">
+                    <img class="site-header__img" src="./images/website_logo.svg" alt="site logo" width="236"
+                        height="26">
                 </a>
 
                 <nav class="site-header__nav">
@@ -44,7 +42,7 @@
 
                     </ul>
                 </nav>
-                <button class="site-header__hamburger-menu">
+                <button class="site-header__hamburger">
 
                 </button>
             </div>
@@ -54,67 +52,84 @@
 
     <main class="site-main">
         <section class="hero">
-            <div class="container hero__container">
-                <h1 class="hero__heading">
-                    Great coffee made simple.
-                </h1>
-                <p class="hero__desc">
-                    Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees
-                    from our best roasters delivered directly to your door, at your schedule.
-                </p>
-                <button  class="hero__btn" type="button">
-                    Create your plan
-                </button>
+            <div class="container ">
+                <div class="hero__container">
+
+
+                    <h1 class="hero__heading">
+                        Great coffee made simple.
+                    </h1>
+                    <p class="hero__desc">
+                        Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees
+                        from our best roasters delivered directly to your door, at your schedule.
+                    </p>
+                    <button class="hero__btn" type="button">
+                        Create your plan
+                    </button>
+                </div>
             </div>
 
         </section>
 
         <!-- our collection section -->
         <section class="our-collection">
-            <div class="our-colletion-container">
-                <ul class="our-collection-list">
-                    <li class="our-collection-items">
-                        <img class="our-collection-img" src="./images/kofe_one.png" alt="cofe examples" width="255"
+            <div class="container our-colletion__container">
+                <ul class="our-collection__list">
+                    <li class="our-collection__items">
+                        <img class="our-collection__img" src="./images/kofe_one.png" alt="cofe examples" width="255"
                             height="193">
-                        <h2 class="our-collection-heading">
-                            Gran Espresso
-                        </h2>
-                        <p class="our-collection-desc">
-                            Light and flavorful blend with cocoa and black pepper for an intense experience.
-                        </p>
+                        <div class="our-collection__box">
+                            <h2 class="our-collection__heading">
+                                Gran Espresso
+                            </h2>
+                            <p class="our-collection__desc">
+                                Light and flavorful blend with cocoa and black pepper for an intense experience.
+                            </p>
+                        </div>
+
+
+
+                    </li>
+                    <li class="our-collection__items">
+                        <img class="our-collection__img" src="./images/kofe_two.png" alt="cofe examples" width="255"
+                            height="193">
+                        <div class="our-collection__box">
+
+                            <h2 class="our-collection__heading">
+                                Planalto
+                            </h2>
+                            <p class="our-collection__desc">
+                                Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.
+                            </p>
+                        </div>
+
+                    </li>
+                    <li class="our-collection__items">
+                        <img class="our-collection__img" src="./images/kofe-3.png" alt="cofe examples" width="255"
+                            height="193">
+                        <div class="our-collection__box">
+
+                            <h2 class="our-collection__heading">
+                                Piccollo
+                            </h2>
+                            <p class="our-collection__desc">
+                                Mild and smooth blend featuring notes of toasted almond and dried cherry.
+                            </p>
+                        </div>
 
                     </li>
                     <li class="our-collection-items">
-                        <img class="our-collection-img" src="./images/kofe_two.png" alt="cofe examples" width="255"
+                        <img class="our-collection__img" src="./images/kofe4.png" alt="cofe examples" width="255"
                             height="193">
-                        <h2 class="our-collection-heading">
-                            Planalto
-                        </h2>
-                        <p class="our-collection-desc">
-                            Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.
-                        </p>
+                        <div class="our-collection__box">
+                            <h2 class="our-collection__heading">
+                                Danche
+                            </h2>
+                            <p class="our-collection__desc">
+                                Ethiopian hand-harvested blend densely packed with vibrant fruit notes.
+                            </p>
+                        </div>
 
-                    </li>
-                    <li class="our-collection-items">
-                        <img class="our-collection-img" src="./images/kofe-3.png" alt="cofe examples" width="255"
-                            height="193">
-                        <h2 class="our-collection-heading">
-                            Piccollo
-                        </h2>
-                        <p class="our-collection-desc">
-                            Mild and smooth blend featuring notes of toasted almond and dried cherry.
-                        </p>
-
-                    </li>
-                    <li class="our-collection-items">
-                        <img class="our-collection-img" src="./images/kofe4.png" alt="cofe examples" width="255"
-                            height="193">
-                        <h2 class="our-collection-heading">
-                            Danche
-                        </h2>
-                        <p class="our-collection-desc">
-                            Ethiopian hand-harvested blend densely packed with vibrant fruit notes.
-                        </p>
 
                     </li>
 
@@ -128,7 +143,7 @@
                 <div class="why-choose-top">
                     <h3 class="why-choose-heading">
                         Why choose us?
-                        <i class="fas fa-adjust"></i>
+
 
                     </h3>
 
@@ -259,37 +274,41 @@
     <footer class="footer-section">
         <div class="container footer-container">
 
-                <a class="footer-logo-link" href="./index.html"><img class="footer-logo" src="./images/footer_logo.svg" alt="footer-icon" width="236" height="26"></a>
+            <a class="footer-logo-link" href="./index.html"><img class="footer-logo" src="./images/footer_logo.svg"
+                    alt="footer-icon" width="236" height="26"></a>
 
-                <ul class="footer-list">
-                    <li class="footer-list-items">
-                        <a class="footer-list-link" href="index.html">
-                            home
-                        </a>
-                    </li>
-                    <li class="footer-list-items">
-                        <a class="footer-list-link" href="./about.html">
-                            about us
-                        </a>
-                    </li>
-                    <li class="footer-list-items">
-                        <a class="footer-list-link" href="./plan.html">
-                            create your plan
-                        </a>
-                    </li>
+            <ul class="footer-list">
+                <li class="footer-list-items">
+                    <a class="footer-list-link" href="index.html">
+                        home
+                    </a>
+                </li>
+                <li class="footer-list-items">
+                    <a class="footer-list-link" href="./about.html">
+                        about us
+                    </a>
+                </li>
+                <li class="footer-list-items">
+                    <a class="footer-list-link" href="./plan.html">
+                        create your plan
+                    </a>
+                </li>
 
-                </ul>
+            </ul>
 
-                <div class="footer-icons">
-                    <img class="icons" src="./images/facebook-icon.svg" alt="icons" width="24" height="24">
-                    <img class="icons" src="./images/twitter.svg" alt="icons" width="24" height="20">
-                    <img class="icons" src="./images/instagram-icon.svg" alt="icons" width="24" height="24">
+            <div class="footer-icons">
+                <img class="icons" src="./images/facebook-icon.svg" alt="icons" width="24" height="24">
+                <img class="icons" src="./images/twitter.svg" alt="icons" width="24" height="20">
+                <img class="icons" src="./images/instagram-icon.svg" alt="icons" width="24" height="24">
 
-                </div>
+            </div>
 
         </div>
 
     </footer>
+    <script src="js/main.js">
+
+    </script>
 
 </body>
 

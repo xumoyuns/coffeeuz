@@ -53,7 +53,7 @@
 
 
     }
-    &__hamburger-menu{
+    &__hamburger{
         display: none;
         width: 16px;
         height: 15px;
@@ -67,28 +67,61 @@
 }
 
 
-@media only screen and (max-width:560px){
+
+@media only screen and (max-width:610px){
     .site-header {
         position: relative;
-
-        &__nav {
-            display: none;
         }
-        &__hamburger-menu {
-            display: inline;
+
+        .site-header__hamburger  {
+            display: inline-block;
+        }
+        .site-header__nav {
+            display: none;
+            background: linear-gradient(180deg,  #FEFCF7 50.8% 1%, rgba(254, 252, 247, 0.5) );
+            transform: matrix(1, 0, 0, 1, 1, 1);
+            .site-header__items{
+                margin-left: 0;
+            }
         }
         .header--open .site-header__nav {
             display: flex;
+            justify-content: center;
             position: absolute;
-
             top: 100%;
+            left: 0;
             width: 100%;
+            padding-bottom: 200px;
+
+
 
         }
+        .header--open .site-header__items{
+            margin-bottom: 32px;
+        }
+
         .header--open .site-header__list {
             flex-direction: column;
+
+        }
+        .header--open .header__hamburger{
+            background-image: url(../images/hamburger-mune-close.svg);
+        }
+        .header--open .site-header__link{
+            text-transform:  capitalize;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #333D4B;
+
+
+
+
         }
 
 
-    }
+
 }

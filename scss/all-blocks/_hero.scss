@@ -2,16 +2,19 @@
 
 
     &__container {
-
+    padding: 117px 86px 116px 86px;
     background-image: url(../../images/hero__backimage.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
+    background-position: center;
     border-radius: 10px;
 
     }
     &__heading {
         margin: 0;
-        width: 493px;
+        width: 100%;
+        max-width: 493px;
+
         font-family: 'Fraunces';
         margin-bottom: 32px;
         font-style: normal;
